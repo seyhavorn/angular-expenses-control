@@ -18,7 +18,7 @@ form {
   h1 {
     text-align: left;
     width: 100%;
-    color: #79DB70;
+    color: #79db70;
   }
 
   button,
@@ -38,5 +38,13 @@ form {
   .aligned-to-right {
     text-align: right;
     width: 100%;
+  }
+
+  .button-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 0;
   }
 }
